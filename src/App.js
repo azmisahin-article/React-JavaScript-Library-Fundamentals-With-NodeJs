@@ -1,4 +1,5 @@
 import React from 'react';
+import CounterButton from './component/CounterButton';
 import LikeButton from './component/LikeButton';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <h1>Hello World!</h1>
       <p>Welcome to my React app.</p>
       <LikeButton></LikeButton>
+      <CounterButton></CounterButton>
     </div>
   );
 }
