@@ -10,7 +10,6 @@ export default class Timer extends Component {
         super(props);
         // an object to hold the state information of this component
         this.state = { counter: 0, increment: props.increment };
-        console.log(this.state)
     }
 
     // invoked immediately after a component is mounted
