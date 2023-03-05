@@ -3,7 +3,7 @@
  */
 
 // other modules on which the component depends.
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CounterButton from './component/CounterButton';
 import Timer from './component/Timer';
 import Timer2 from './component/Timer2';
