@@ -11,6 +11,7 @@ function App() {
       <LikeButton></LikeButton>
       <CounterButton></CounterButton>
       <Timer></Timer>
+      <Timer increment={10} ></Timer>
     </div>
   );
 }
