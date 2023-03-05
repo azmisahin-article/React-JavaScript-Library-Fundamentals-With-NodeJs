@@ -2,13 +2,16 @@
  * @file Counter
  */
 
+// other modules on which the component depends.
 import React, { useState } from 'react';
 import CounterButton from './component/CounterButton';
 import Timer from './component/Timer';
 import Timer2 from './component/Timer2';
 import { store } from './reducers';
 
-// component
+/**
+ * this is react component
+ */
 function Counter() {
 
     // an object to hold the state information of this component
@@ -44,6 +47,7 @@ function Counter() {
         store.counterStore.dispatch(decrementAction)
     }
 
+    // html content to display when rendering the component
     return (
         <div>
             <CounterButton></CounterButton>
@@ -56,4 +60,6 @@ function Counter() {
     );
 }
 
+// export
+// when importing this module, named exports must be referenced by the exact same name
 export default Counter;
