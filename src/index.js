@@ -10,5 +10,9 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // displays the react root in the DOM node
 root.render(
-  <App />
+  // a tool used to highlight potential problems in an application
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+
 );
